@@ -49,23 +49,23 @@
             <form class="row g-3">
                 <div class="col-md-6 col-sm-6">
                     <label for="nome-autore" class="form-label fw-semibold">Nome Autore</label>
-                    <input type="text" class="form-control" id="nome-autore"
-                        placeholder="Inserisci il nome dell'autore">
+                    <input type="text" class="form-control" id="nome-autore" placeholder="Inserisci il nome dell'autore"
+                        required>
                 </div>
                 <div class="col-md-6 col-sm-6">
                     <label for="cognome-autore" class="form-label fw-semibold">Cognome Autore</label>
                     <input type="text" class="form-control" id="cognome-autore"
-                        placeholder="Inserisci il cognome del'autore">
+                        placeholder="Inserisci il cognome del'autore" required>
                 </div>
                 <div class="col-12">
                     <label for="titolo" class="form-label fw-semibold">Titolo</label>
                     <input type="text" class="form-control" id="titolo" placeholder="Inserisci il titolo del libro"
-                        aria-describedby="titoloItaliano">
+                        aria-describedby="titoloItaliano" required>
                     <div id="titoloItaliano" class="form-text">Titolo versione italiana</div>
                 </div>
                 <div class="col-md-4">
                     <label for="inputGenre" class="form-label fw-semibold">Genere</label>
-                    <select id="inputGenre" class="form-select">
+                    <select id="inputGenre" class="form-select" required>
                         <option selected>Scegli il genere</option>
                         <option value="1">Fantasy</option>
                         <option value="2">Biografia</option>
@@ -78,12 +78,12 @@
                 <div class="col-md-4">
                     <label for="annoDiPubblicazione" class="form-label fw-semibold">Anno di Pubblicazione</label>
                     <input type="text" class="form-control" id="annoDiPubblicazione" maxlength="4"
-                        placeholder="Inserisci l'anno">
+                        placeholder="Inserisci l'anno" required>
                 </div>
                 <div class="col-md-4">
                     <label for="isbn" class="form-label fw-semibold">ISBN#</label>
                     <input type="text" class="form-control" id="isbn" maxlength="13"
-                        placeholder="Inserisci il codice ISBN#">
+                        placeholder="Inserisci il codice ISBN#" required>
                 </div>
                 <div>
                     <hr>
